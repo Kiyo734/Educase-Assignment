@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Signin PopX</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+</head>
+<body class="bg-gray-50 min-h-screen flex justify-center items-start pt-20">
+  <main class="bg-white border border-gray-300 w-96 min-h-[600px] p-8">
+    <h1 class="text-gray-900 font-extrabold text-2xl leading-tight mb-4">
+      Signin to your <br />PopX account
+    </h1>
+    <p class="text-gray-600 text-base mb-8 leading-relaxed">
+      Lorem ipsum dolor sit amet, <br />consectetur adipiscing elit,
+    </p>
+    <form class="space-y-4">
+      <div>
+        <label
+          for="email"
+          class="text-purple-600 text-xs font-medium mb-1 block"
+          >Email Address</label
+        >
+        <input
+          id="email"
+          type="email"
+          placeholder="Enter email address"
+          class="w-full border border-gray-300 rounded-md px-3 py-2 text-gray-500 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-purple-600 focus:border-purple-600"
+        />
+      </div>
+      <div>
+        <label
+          for="password"
+          class="text-purple-600 text-xs font-medium mb-1 block"
+          >Password</label
+        >
+        <input
+          id="password"
+          type="password"
+          placeholder="Enter password"
+          class="w-full border border-gray-300 rounded-md px-3 py-2 text-gray-500 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-purple-600 focus:border-purple-600"
+        />
+      </div>
+      <button
+        type="submit"
+        disabled
+        class="w-full bg-gray-300 text-white font-semibold rounded-md py-3 mt-2 cursor-not-allowed"
+      >
+        Login
+      </button>
+    </form>
+  </main>
+</body>
+</html>

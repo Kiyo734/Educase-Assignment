@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Create PopX Account</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 flex justify-center py-10">
+  <form
+    class="bg-gray-100 border border-gray-300 w-full max-w-md p-8"
+    aria-label="Create your PopX account form"
+  >
+    <h1 class="text-gray-900 font-extrabold text-2xl mb-8 leading-tight">
+      Create your <br />PopX account
+    </h1>
+
+    <label
+      for="fullname"
+      class="block text-[13px] text-purple-600 font-medium mb-1"
+      >Full Name<span class="text-red-600">*</span></label
+    >
+    <input
+      id="fullname"
+      name="fullname"
+      type="text"
+      value="Marry Doe"
+      class="w-full rounded-md border border-gray-300 px-4 py-2 mb-6 text-black text-sm focus:outline-none focus:ring-2 focus:ring-purple-600"
+    />
+
+    <label
+      for="phone"
+      class="block text-[13px] text-purple-600 font-medium mb-1"
+      >Phone number<span class="text-red-600">*</span></label
+    >
+    <input
+      id="phone"
+      name="phone"
+      type="text"
+      value="Marry Doe"
+      class="w-full rounded-md border border-gray-300 px-4 py-2 mb-6 text-black text-sm focus:outline-none focus:ring-2 focus:ring-purple-600"
+    />
+
+    <label
+      for="email"
+      class="block text-[13px] text-purple-600 font-medium mb-1"
+      >Email address<span class="text-red-600">*</span></label
+    >
+    <input
+      id="email"
+      name="email"
+      type="text"
+      value="Marry Doe"
+      class="w-full rounded-md border border-gray-300 px-4 py-2 mb-6 text-black text-sm focus:outline-none focus:ring-2 focus:ring-purple-600"
+    />
+
+    <label
+      for="password"
+      class="block text-[13px] text-purple-600 font-medium mb-1"
+      >Password <span class="text-red-600">*</span></label
+    >
+    <input
+      id="password"
+      name="password"
+      type="text"
+      value="Marry Doe"
+      class="w-full rounded-md border border-gray-300 px-4 py-2 mb-6 text-black text-sm focus:outline-none focus:ring-2 focus:ring-purple-600"
+    />
+
+    <label
+      for="company"
+      class="block text-[13px] text-purple-600 font-medium mb-1"
+      >Company name</label
+    >
+    <input
+      id="company"
+      name="company"
+      type="text"
+      value="Marry Doe"
+      class="w-full rounded-md border border-gray-300 px-4 py-2 mb-6 text-black text-sm focus:outline-none focus:ring-2 focus:ring-purple-600"
+    />
+
+    <fieldset class="mb-10">
+      <legend class="text-sm text-gray-900 mb-2">
+        Are you an Agency?<span class="text-red-600">*</span>
+      </legend>
+      <div class="flex items-center space-x-6">
+        <label
+          for="agency-yes"
+          class="flex items-center cursor-pointer text-gray-900 text-sm"
+        >
+          <input
+            type="radio"
+            id="agency-yes"
+            name="agency"
+            value="yes"
+            checked
+            class="w-5 h-5 text-purple-700 border border-gray-400 rounded-full focus:ring-2 focus:ring-purple-600"
+          />
+          <span class="ml-2 select-none">Yes</span>
+        </label>
+        <label
+          for="agency-no"
+          class="flex items-center cursor-pointer text-gray-900 text-sm"
+        >
+          <input
+            type="radio"
+            id="agency-no"
+            name="agency"
+            value="no"
+            class="w-5 h-5 border border-gray-400 rounded-full focus:ring-2 focus:ring-purple-600"
+          />
+          <span class="ml-2 select-none">No</span>
+        </label>
+      </div>
+    </fieldset>
+
+    <button
+      type="submit"
+      class="w-full bg-purple-700 hover:bg-purple-800 text-white font-semibold text-lg py-3 rounded-md"
+    >
+      Create Account
+    </button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>Account Settings</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-50 min-h-screen flex items-start justify-center py-10">
+  <div class="w-full max-w-md border border-gray-300 bg-white">
+    <div class="px-6 py-4 border-b border-gray-200">
+      <h2 class="text-gray-900 text-lg font-normal">Account Settings</h2>
+    </div>
+    
+    <div class="px-6 py-6 bg-gray-50 border-b border-gray-200">
+      <div class="flex items-start space-x-4 mb-4">
+        <!-- Profile image container with relative positioning -->
+        <div class="relative">
+          <img alt="Face" 
+               class="rounded-full w-16 h-16 object-cover border-2 border-white shadow-sm" 
+               src="https://storage.googleapis.com/a1aa/image/71e8cfb9-2a5a-4092-aca1-0fd16d2716c2.jpg"/>
+          
+          <!-- Camera icon positioned at bottom-right -->
+          <button aria-label="Change profile picture" 
+                  class="absolute -right-1 -bottom-1 bg-purple-700 text-white rounded-full p-1.5 border-2 border-white shadow-md hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-600">
+            <i class="fas fa-camera text-xs"></i>
+          </button>
+        </div>
+
+        <!-- User details aligned properly -->
+        <div class="mt-1.5">
+          <p class="font-semibold text-gray-900 leading-tight">Marry Doe</p>
+          <p class="text-gray-900 text-sm leading-tight">Marry@Gmail.Com</p>
+        </div>
+      </div>
+
+      <!-- Improved text formatting -->
+      <p class="text-gray-900 text-sm leading-relaxed mt-4">
+        Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy
+        Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam
+      </p>
+    </div>
+    
+    <div class="h-64 border-t border-dashed border-gray-300"></div>
+  </div>
+</body>
+</html>
